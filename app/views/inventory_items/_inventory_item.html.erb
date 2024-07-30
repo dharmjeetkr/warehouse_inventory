@@ -2,5 +2,5 @@
   <p><strong>Name:</strong> <%= inventory_item.name %></p>
   <p><strong>Quantity:</strong> <%= inventory_item.quantity %></p>
   <p><strong>Location:</strong> <%= inventory_item.location %></p>
-  <%= link_to 'Edit', edit_inventory_item_path(inventory_item), data: { turbo_frame: "_top" } %>
+  <%= link_to 'Edit', edit_inventory_item_path(inventory_item), data: { turbo_frame: "_top" }, class: "edit-btn" %>
 </div>
